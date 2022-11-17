@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!------------------------link section------------------------>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJ TUTORIALS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;0,700;1,100;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/6355293fed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+<!-------------------------------Heading section----------------------------------------->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Results and Progress of the year</h1>
+    </section>
+
+
+
+
+<!----------------------------------------about there results------------------------------------------------>    
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+              <img src="images/about1.jpg" >
+              <h2>our results and progress</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, delectus voluptates? Harum, incidunt. Laudantium atque debitis animi quisquam nesciunt? Doloribus autem perferendis temporibus neque excepturi beatae quae debitis. Optio, in!</p>
+              <br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa harum corporis aspernatur neque eos delectus aliquam alias asperiores, debitis fuga unde reiciendis saepe magnam nobis porro quae praesentium assumenda eum.</p>
+              <br>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, et nulla? Porro repudiandae officiis vitae numquam molestiae eum quos vel, animi quae unde inventore magni quas perspiciatis iusto corrupti hic?</p>
+              <br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iusto, ex fuga rem culpa quibusdam nulla tempore maxime exercitationem a vero doloremque cum cupiditate reiciendis! Magnam ipsa quisquam consectetur at.</p>
+              <div class="comment-box">
+                <h3>Leave a comment</h3>
+
+
+
+<!----------------------------------------Results of students----------------------------------------------------->
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">post coment</button> 
+                </form>
+              </div>
+            </div>
+        <div class="blog-right">
+            <h3>post categories</h3>
+            <div>
+                <span>PHYSICS</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>CHEMISTRY</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>MATHEMATICS</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>BIOLOGY</span>
+                <span>29</span>
+            </div>
+            <div>
+                <span>COMPUTER SCIENCE</span>
+                <span>24</span>
+            </div>
+            <div>
+                <span>ELECTRICAL</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>ELECTRONICS</span>
+                <span>22</span>
+            </div>
+
+        </div>
+    </div>
+    </section>
+    
+    
+   
+   
+<!----------------------------------------------Footer section-----------------------------------------------------> 
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cumque quam enim, magnam alias doloribus qui. Corporis voluptatum, <br>expedita perferendis cum fuga assumenda officia voluptatibus deserunt mollitia nemo nihil totam?</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa-solid fa-heart"></i> by coaching center name </p>
+
+    </section >
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+            
+        }
+    </script>
+
+
+</body>
+</html>
